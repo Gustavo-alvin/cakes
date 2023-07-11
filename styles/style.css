@@ -1,0 +1,151 @@
+:root {
+    --cor-primaria: #ffe4c4;
+    --cor-secundaria:#e9b0b0;
+    --cor-tercearia: #000000;
+    --cor-quartearia: #b09cc7;
+    --cor-quintearia:  #a57e72;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15% 2% 15%;
+}
+
+.menu{
+    display: flex;
+    gap: 55px;
+}
+
+.menu__cakes{
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--cor-tercearia);
+    transition: 0.3s;
+}
+
+.menu__cakes:hover{
+    color: var(--cor-secundaria);
+    transform: scale(1.3);
+}
+
+.apresentacao{
+    background-color: var(--cor-secundaria);
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao__titulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.apresentacao__paragrafo{
+    font-size: large;
+}
+
+.categoria{
+    padding: 0% 0% 2%;
+}
+
+.categoria__apresentacao{
+    text-align: center;
+    padding: 1%;
+}
+
+.categoria__bolos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.categoria__bolos__links{
+    border: 2px solid var(--cor-quartearia);
+    color: var(--cor-tercearia);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 15rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.categoria__bolos__links:hover{
+    background-color: var(--cor-secundaria);
+    transform: scale(1.1);
+}
+
+.escolha{
+    background-color:  var(--cor-secundaria);
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 1% 2% 2% 2%;
+}
+
+select {
+    border-radius: 5px;
+}
+
+.selecao__bolos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 2%;
+}
+
+.box__bolos{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 10%;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+}
+
+.titulo__bolos{
+    text-align: center;
+    font-size: 22px;
+    padding: 5%;
+}
+
+.comprar__bolo{
+    text-decoration: none;
+    color: var(--cor-tercearia);
+    text-align: center;
+    padding: 5%;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-quartearia);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.comprar__bolo:hover{
+    transform: scale(1.1);
+    background-color: var(--cor-quintearia);
+}
+
+.img__bolos{
+    transition: 0.5s;
+}
+
+.img__bolos:hover{
+    transform: scale(1.1);
+}
