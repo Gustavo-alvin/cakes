@@ -149,3 +149,19 @@ select {
 .img__bolos:hover{
     transform: scale(1.1);
 }
+
+.rodape{
+    padding: 2% 15% 2% 15%;
+    background-color: var(--cor-secundaria);
+}
+
+.menu__rodape{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.rodape__criador{
+    padding: 5%;
+    text-align: center;
+}
